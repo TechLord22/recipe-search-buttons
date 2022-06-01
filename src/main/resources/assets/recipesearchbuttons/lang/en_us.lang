@@ -1,0 +1,6 @@
+rsb.message.no_recipes_found=No recipes found
+rsb.message.no_uses.found=No uses found
+
+rsb.controls.category=Recipe Search Button
+rsb.keybind.find_recipe=Find In-World Recipes
+rsb.keybind.find_uses=Find In-World Uses

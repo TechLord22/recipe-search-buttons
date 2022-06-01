@@ -1,0 +1,13 @@
+[
+  {
+    "modid": "recipesearchbuttons",
+    "name": "Recipe Search Buttons",
+    "description": "Adds useful keybinds for finding recipes for what you're looking at!",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "logoFile": "assets/recipesearchbuttons/textures/logo.png",
+    "authorList": [
+      "TechLord22"
+    ]
+  }
+]
