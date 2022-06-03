@@ -72,10 +72,10 @@ public class RecipeSearchButtons {
                 }
 
                 // blocks
-                ItemStack stack = new ItemStack(block);
+                ItemStack stack = block.getPickBlock(state, rayTraceResult, world, pos, player);
 
-                // if the stack is empty with the ItemStack constructor, try the pick block
-                if (stack.isEmpty()) stack = block.getPickBlock(state, rayTraceResult, world, pos, player);
+                // if the stack is empty with the pick block, try the constructor
+                if (stack.isEmpty()) stack = new ItemStack(block, 1, block.getMetaFromState(state));
 
                 // if the pick block was empty, do nothing
                 if (stack.isEmpty()) return;
